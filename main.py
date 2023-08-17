@@ -37,10 +37,10 @@ class GiGaInterpreter:
         return eval(expr)
 
 if __name__ == "__main__":
-    interpreter = PithonInterpreter()
+    interpreter = GiGaInterpreter()
 
     source_code = """
-        # Pithon Example Code
+        # GiGa Example Code
         x = 10
         y = 5
         z = x + y * 2
